@@ -2,10 +2,10 @@
 
 A boilerplate backend to get up and running fast.
 
-##Built in Models:
+## Built in Models:
 - Users
 
-##Stack: 
+## Stack: 
 - Node
 - Expressjs
 - Apollo-server
