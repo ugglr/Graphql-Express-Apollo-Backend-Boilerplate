@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "server": "nodemon --exec babel-node src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +19,17 @@
   },
   "homepage": "https://github.com/ugglr/Graphql-Express-Apollo-Backend-Boilerplate#readme",
   "dependencies": {
+    "apollo-server-express": "^2.9.15",
+    "bcrypt": "^3.0.7",
     "express": "^4.17.1",
+    "graphql": "^14.5.8",
+    "mongoose": "^5.8.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
     "nodemon": "^2.0.2"
   }
 }
